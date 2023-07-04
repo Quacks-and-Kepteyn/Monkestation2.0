@@ -94,18 +94,6 @@
 	name = "Engineering Maintenance"
 	icon_state = "maint_engi"
 
-/area/station/maintenance/department/engine/lower
-	name = "Lower Engineering Maintenance"
-	icon_state = "maint_engi"
-
-/area/station/maintenance/department/engine/greater
-	name = "Greater Engineering Maintenance"
-	icon_state = "maint_engi"
-
-/area/station/maintenance/department/engine/lesser
-	name = "Lesser Engineering Maintenance"
-	icon_state = "maint_engi"
-
 /area/station/maintenance/department/science/xenobiology
 	name = "Xenobiology Maintenance"
 	icon_state = "xenomaint"
