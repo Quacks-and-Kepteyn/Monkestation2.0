@@ -5653,6 +5653,9 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos/office)
+"ePA" = (
+/turf/open/genturf,
+/area/station/maintenance/port/greater)
 "ePI" = (
 /obj/structure/rack,
 /obj/item/wrench,
@@ -5857,6 +5860,12 @@
 /obj/effect/mapping_helpers/airlock/access/any/security/entrance,
 /turf/open/floor/iron/white,
 /area/space)
+"fbs" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/port/greater)
 "fbE" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
@@ -10917,8 +10926,8 @@
 /turf/open/floor/iron/white,
 /area/space)
 "jMz" = (
-/obj/effect/spawner/room/threexthree,
-/turf/open/floor/plating,
+/obj/structure/cable,
+/turf/closed/wall,
 /area/station/maintenance/port/greater)
 "jMM" = (
 /obj/item/storage/secure/safe{
@@ -14971,7 +14980,10 @@
 /turf/open/floor/iron/white,
 /area/space)
 "ntw" = (
-/obj/effect/spawner/room/fivexthree,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/machinery/disposal/delivery_chute,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
 "ntP" = (
@@ -16250,8 +16262,10 @@
 /turf/open/floor/iron,
 /area/space)
 "ouM" = (
-/obj/effect/spawner/room/threexfive,
-/turf/open/floor/plating,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/closed/wall,
 /area/station/maintenance/port/greater)
 "ovu" = (
 /obj/structure/window/spawner/directional/east,
@@ -17193,11 +17207,8 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/disposalpipe/trunk{
+/obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj/machinery/disposal/delivery_chute{
-	dir = 8
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
@@ -24458,9 +24469,8 @@
 /turf/open/floor/plating,
 /area/space)
 "uVF" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/dark,
-/area/station/engineering/atmos/office)
+/turf/closed/wall,
+/area/station/engineering/engine_smes)
 "uWa" = (
 /obj/machinery/light{
 	dir = 4
@@ -24951,6 +24961,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
+"voi" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall,
+/area/station/maintenance/port/greater)
 "voq" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -40263,23 +40277,23 @@ gii
 gii
 gii
 gii
+ePA
+eTK
+eTK
+eTK
+eTK
+eTK
+eTK
+eBu
+eBu
+eBu
+eTK
+eTK
+gii
 gii
 eTK
 eTK
-eTK
-eTK
-eTK
-eTK
-eTK
-eTK
-eTK
-eTK
-eTK
-gii
-gii
-eTK
-eTK
-eTK
+eBu
 eTK
 eTK
 gii
@@ -40520,24 +40534,24 @@ gii
 gii
 gii
 gii
-gii
-eTK
-fId
-fId
-jMz
-eTK
-fId
-fId
-fId
-fId
-ouM
-eTK
-eTK
 eTK
 eTK
 fId
 fId
-ntw
+fId
+eTK
+fId
+fId
+fId
+fId
+fId
+eTK
+eTK
+eTK
+eTK
+fId
+fId
+fId
 eTK
 gii
 gii
@@ -40777,8 +40791,8 @@ gii
 gii
 gii
 gii
-gii
 eTK
+fId
 fId
 fId
 fId
@@ -40791,7 +40805,7 @@ fId
 fId
 fId
 fId
-eTK
+fey
 fId
 koK
 fId
@@ -41034,8 +41048,8 @@ gii
 gii
 gii
 gii
-gii
 eTK
+fId
 fId
 fId
 fId
@@ -41046,9 +41060,9 @@ tiD
 fId
 fId
 eTK
-eTK
 fId
-fey
+fId
+eTK
 fId
 kim
 fId
@@ -41058,9 +41072,9 @@ fId
 eTK
 eTK
 eTK
-eTK
-eTK
-eTK
+eBu
+eBu
+eBu
 eTK
 eTK
 gii
@@ -41290,12 +41304,12 @@ gii
 gii
 gii
 gii
+gii
 eTK
-eTK
-eTK
-eTK
-fey
-eTK
+fId
+fId
+fId
+fId
 eTK
 eTK
 eTK
@@ -41318,13 +41332,13 @@ fId
 fId
 fId
 fId
-ouM
+fId
 eTK
 eTK
 eTK
 eTK
 eTK
-eTK
+eBu
 eTK
 eTK
 gii
@@ -41547,18 +41561,18 @@ gii
 gii
 gii
 gii
+uVF
 eTK
-fId
-fId
-fId
-fId
-fId
-fId
+eTK
+eTK
+fey
+eTK
+eTK
 fId
 fId
 tiD
 fId
-fId
+jMz
 fId
 fId
 hqu
@@ -41582,7 +41596,7 @@ fId
 eTK
 fId
 fId
-jMz
+fId
 eTK
 gii
 gii
@@ -41806,19 +41820,19 @@ lJI
 lJI
 lJI
 fId
-eTK
-eTK
-eTK
 fId
-eTK
-eTK
-eTK
-tiD
-eTK
-eTK
-eTK
-fId
-fId
+jov
+jov
+jov
+jov
+jov
+jov
+jov
+qmV
+qmV
+qmV
+qmV
+qmV
 eTK
 eTK
 kTa
@@ -42063,18 +42077,18 @@ iJx
 tnN
 lJI
 fId
+fId
+jov
 eTK
-jov
-jov
-jov
-jov
-jov
-jov
-jov
-qmV
-qmV
-qmV
-qmV
+eTK
+eTK
+eTK
+lYR
+ouM
+voi
+ntw
+fId
+fId
 qmV
 qmV
 qmV
@@ -42101,7 +42115,7 @@ eTK
 gii
 eTK
 eTK
-eTK
+eBu
 eTK
 eTK
 kNh
@@ -42320,14 +42334,14 @@ mHP
 vbX
 lJI
 fId
-eTK
+fId
 jov
 eTK
-eTK
-eTK
-eTK
-eTK
 fId
+fId
+fId
+fId
+fbs
 nZV
 nZV
 nZV
@@ -42359,7 +42373,7 @@ eTK
 eTK
 fId
 fId
-ntw
+fId
 eTK
 gii
 gii
@@ -42577,14 +42591,14 @@ mmA
 hFi
 lJI
 fId
-eTK
+fId
 jov
 eTK
 fId
 fId
-jMz
-eTK
 fId
+fId
+fbs
 nZV
 pJq
 uWm
@@ -42617,7 +42631,7 @@ eTK
 fId
 fId
 fId
-eTK
+eBu
 gii
 gii
 gii
@@ -42840,7 +42854,7 @@ nLm
 tiD
 gzO
 fId
-eTK
+fId
 phZ
 nZV
 sgM
@@ -42855,13 +42869,13 @@ lJj
 eWk
 eyT
 fId
-eTK
+fId
 eTK
 fId
 fId
 lmR
 fId
-ouM
+fId
 gNB
 gNB
 gNB
@@ -42874,7 +42888,7 @@ lYR
 fId
 gBK
 fId
-eTK
+eBu
 gii
 gii
 gii
@@ -43131,7 +43145,7 @@ eTK
 fId
 koK
 fId
-eTK
+eBu
 gii
 gii
 gii
@@ -43369,7 +43383,7 @@ lJj
 pgm
 eyT
 fId
-eTK
+fId
 eTK
 fId
 fId
@@ -43902,7 +43916,7 @@ fId
 fId
 fId
 fId
-ouM
+fId
 eTK
 gii
 gii
@@ -44160,7 +44174,7 @@ oHc
 rZG
 fId
 fId
-eTK
+eBu
 gii
 gii
 gii
@@ -45187,7 +45201,7 @@ eTK
 eTK
 fId
 eTK
-eTK
+eBu
 eTK
 bXN
 gii
@@ -49274,7 +49288,7 @@ cck
 qNx
 jzn
 uRS
-uVF
+wTW
 ocB
 ocB
 ocB
