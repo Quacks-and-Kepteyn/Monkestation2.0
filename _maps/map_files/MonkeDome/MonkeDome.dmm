@@ -506,10 +506,8 @@
 /turf/open/floor/iron,
 /area/space)
 "aGi" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/open/floor/iron,
+/obj/structure/fence,
+/turf/open/misc/dirt/jungle,
 /area/space)
 "aGu" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -1580,12 +1578,6 @@
 /turf/open/space/basic,
 /area/space)
 "bLo" = (
-/obj/machinery/camera{
-	c_tag = "Medbay - Surgery";
-	dir = 1;
-	name = "medbay camera";
-	network = list("ss13","medbay")
-	},
 /obj/structure/closet/crate/freezer/surplus_limbs,
 /obj/effect/turf_decal/trimline/neutral/warning{
 	dir = 1
@@ -1859,13 +1851,11 @@
 /turf/open/floor/carpet/royalblue,
 /area/space)
 "bXN" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Lab - Pen #2";
-	dir = 8;
-	network = list("ss13","rd","xeno");
-	pixel_x = 14
+/obj/machinery/porta_turret/ai{
+	dir = 4
 	},
-/turf/open/space/basic,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron/dark,
 /area/space)
 "bXT" = (
 /obj/structure/chair,
@@ -2556,13 +2546,9 @@
 /turf/open/floor/iron/grimy,
 /area/space)
 "cKi" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Lab - Pen #4";
-	dir = 4;
-	network = list("ss13","rd","xeno");
-	pixel_x = -14
-	},
-/turf/open/space/basic,
+/obj/machinery/holopad,
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron,
 /area/space)
 "cKm" = (
 /obj/structure/chair/comfy/black{
@@ -3136,12 +3122,6 @@
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
 /obj/machinery/iv_drip,
-/obj/machinery/camera{
-	c_tag = "Medbay - Recovery Room";
-	dir = 8;
-	name = "medbay camera";
-	network = list("ss13","medbay")
-	},
 /obj/effect/turf_decal/trimline/blue/line{
 	dir = 4
 	},
@@ -4347,6 +4327,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"eCt" = (
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron,
+/area/space)
 "eCG" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -5059,12 +5043,11 @@
 /turf/open/floor/iron/white,
 /area/space)
 "fse" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Lab - Pen #1";
-	dir = 1;
-	network = list("ss13","rd","xeno")
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
 	},
-/turf/open/space/basic,
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron,
 /area/space)
 "fsj" = (
 /obj/effect/landmark/secequipment,
@@ -5179,6 +5162,13 @@
 	name = "biohazard containment door"
 	},
 /turf/open/floor/iron/white,
+/area/space)
+"fzO" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted,
+/turf/open/floor/iron,
 /area/space)
 "fzY" = (
 /obj/machinery/airalarm/directional/west,
@@ -5569,6 +5559,13 @@
 /obj/structure/closet/toolcloset,
 /turf/open/floor/iron,
 /area/space)
+"fXB" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
 "fXM" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/r_wall,
@@ -5624,12 +5621,10 @@
 /turf/open/floor/iron,
 /area/space)
 "fZY" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Lab - Test Chamber";
-	dir = 1;
-	network = list("ss13","rd","xeno")
+/obj/machinery/door/window/brigdoor/right{
+	dir = 8
 	},
-/turf/open/genturf,
+/turf/open/floor/engine,
 /area/space)
 "gaB" = (
 /obj/structure/table/glass,
@@ -5942,6 +5937,11 @@
 "guH" = (
 /obj/machinery/airalarm/directional/west,
 /obj/structure/closet/secure_closet/security/science,
+/turf/open/floor/iron,
+/area/space)
+"gwK" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron,
 /area/space)
 "gwL" = (
@@ -6607,6 +6607,16 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"hnk" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
 "hoe" = (
 /obj/machinery/computer/security/telescreen{
 	desc = "Used for watching Prison Wing holding areas.";
@@ -6679,13 +6689,11 @@
 /turf/open/floor/iron,
 /area/space)
 "hrP" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 4
+/obj/structure/closet/secure_closet/security/med,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 1
 	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plating,
+/turf/open/floor/iron,
 /area/space)
 "hsr" = (
 /obj/structure/chair/office{
@@ -7791,6 +7799,12 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"iEn" = (
+/obj/item/kirbyplants/random,
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/red/anticorner/contrasted,
+/turf/open/floor/iron,
+/area/space)
 "iEt" = (
 /obj/machinery/computer/libraryconsole/bookmanagement,
 /obj/structure/table/wood,
@@ -7912,6 +7926,10 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/royalblue,
+/area/space)
+"iHG" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/turf/open/floor/circuit,
 /area/space)
 "iIg" = (
 /obj/machinery/door/airlock/engineering{
@@ -8422,6 +8440,7 @@
 /area/space)
 "jna" = (
 /obj/effect/mapping_helpers/airlock/access/any/command/ai_upload,
+/obj/machinery/door/window/brigdoor,
 /turf/open/floor/engine,
 /area/space)
 "jnu" = (
@@ -9305,10 +9324,8 @@
 /turf/open/floor/iron,
 /area/space)
 "krT" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/wall,
+/obj/structure/sign/warning/secure_area/directional/north,
+/turf/open/genturf,
 /area/space)
 "krZ" = (
 /obj/item/kirbyplants/random,
@@ -9528,6 +9545,7 @@
 /area/space)
 "kHd" = (
 /obj/machinery/power/rad_collector/anchored,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
 /turf/open/floor/engine,
 /area/space)
 "kHt" = (
@@ -9868,6 +9886,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/depsec/engineering,
+/obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron,
 /area/space)
 "kZR" = (
@@ -10307,13 +10326,7 @@
 /turf/open/floor/iron,
 /area/space)
 "lut" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/plating,
+/turf/open/misc/dirt/jungle,
 /area/space)
 "luW" = (
 /obj/machinery/computer/arcade{
@@ -10475,10 +10488,8 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "lED" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Lab - Test Chamber";
-	network = list("ss13","rd","xeno")
-	},
+/obj/machinery/power/rad_collector/anchored,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
 /turf/open/floor/engine,
 /area/space)
 "lFu" = (
@@ -11145,9 +11156,7 @@
 /turf/open/floor/plating,
 /area/space)
 "mtW" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
+/obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron,
 /area/space)
 "mun" = (
@@ -11527,8 +11536,8 @@
 /area/space)
 "mPS" = (
 /obj/machinery/airalarm/directional/north,
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/space)
@@ -11606,10 +11615,8 @@
 /turf/open/floor/wood,
 /area/space)
 "mTA" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/iron,
+/obj/structure/grille,
+/turf/open/misc/dirt/jungle,
 /area/space)
 "mUa" = (
 /obj/machinery/door/airlock/maintenance{
@@ -12082,7 +12089,7 @@
 	id = "aisolars";
 	name = "AI Solar Array"
 	},
-/turf/open/space/basic,
+/turf/open/misc/dirt/jungle,
 /area/space)
 "ntS" = (
 /obj/structure/closet{
@@ -12242,6 +12249,10 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"nDE" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron/dark,
+/area/space)
 "nDP" = (
 /obj/structure/easel,
 /obj/item/canvas/twentythree_twentythree,
@@ -12257,6 +12268,12 @@
 "nEc" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/visible,
 /turf/open/floor/iron/dark,
+/area/space)
+"nEl" = (
+/obj/machinery/door/window/brigdoor/left{
+	dir = 4
+	},
+/turf/open/floor/engine,
 /area/space)
 "nEq" = (
 /obj/machinery/airalarm/directional/west,
@@ -13029,6 +13046,10 @@
 /area/space)
 "orj" = (
 /turf/open/floor/circuit,
+/area/space)
+"orn" = (
+/obj/machinery/power/tracker,
+/turf/open/misc/dirt/jungle,
 /area/space)
 "orv" = (
 /obj/structure/disposalpipe/segment{
@@ -15180,7 +15201,7 @@
 /area/space)
 "qGn" = (
 /obj/machinery/computer/crew,
-/obj/structure/disposalpipe/segment{
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 4
 	},
 /turf/open/floor/iron,
@@ -18221,9 +18242,6 @@
 /turf/open/floor/iron,
 /area/space)
 "txc" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 1
-	},
 /obj/structure/closet/radiation,
 /turf/open/floor/plating,
 /area/space)
@@ -18427,6 +18445,14 @@
 "tGO" = (
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron/freezer,
+/area/space)
+"tHq" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/obj/effect/landmark/event_spawn,
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron,
 /area/space)
 "tHt" = (
 /obj/structure/dresser,
@@ -19488,13 +19514,10 @@
 /turf/open/floor/iron/showroomfloor,
 /area/space)
 "uJZ" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Lab - Pen #5";
-	dir = 4;
-	network = list("ss13","rd","xeno");
-	pixel_x = -14
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron,
 /area/space)
 "uKr" = (
 /obj/structure/closet/masks,
@@ -20105,12 +20128,8 @@
 /turf/open/floor/iron/white,
 /area/space)
 "vld" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Lab - Pen #6";
-	dir = 1;
-	network = list("ss13","rd","xeno")
-	},
-/turf/open/space/basic,
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/floor/plating,
 /area/space)
 "vmk" = (
 /obj/machinery/door/airlock/external,
@@ -20238,8 +20257,8 @@
 /area/space)
 "vuW" = (
 /obj/machinery/computer/station_alert,
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/space)
@@ -20558,13 +20577,10 @@
 /turf/open/space/basic,
 /area/space)
 "vPM" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Lab - Pen #3";
-	dir = 8;
-	network = list("ss13","rd","xeno");
-	pixel_x = 14
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron,
 /area/space)
 "vQf" = (
 /obj/item/kirbyplants/dead,
@@ -21700,6 +21716,21 @@
 /obj/structure/chair/office,
 /turf/open/floor/iron/grimy,
 /area/space)
+"xlE" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/wiki/security_space_law{
+	pixel_x = 3;
+	pixel_y = 4
+	},
+/obj/item/radio/off,
+/obj/item/screwdriver{
+	pixel_y = 10
+	},
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
 "xmd" = (
 /turf/open/floor/engine/n2,
 /area/space)
@@ -22352,6 +22383,7 @@
 	dir = 8
 	},
 /obj/structure/table/glass,
+/obj/machinery/power/apc/auto_name/directional/west,
 /turf/open/floor/iron/dark/telecomms,
 /area/space)
 "xWt" = (
@@ -22517,6 +22549,11 @@
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating,
+/area/space)
+"ykv" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron,
 /area/space)
 "ykM" = (
 /obj/structure/filingcabinet/filingcabinet,
@@ -35964,7 +36001,7 @@ gii
 gii
 gii
 gii
-hPV
+bzk
 gii
 gii
 gii
@@ -36173,7 +36210,7 @@ gii
 gii
 gii
 jKK
-gii
+krT
 gii
 gii
 gii
@@ -36209,6 +36246,7 @@ gii
 gii
 gii
 jKK
+krT
 gii
 gii
 gii
@@ -36220,8 +36258,7 @@ gii
 gii
 gii
 gii
-gii
-gii
+bzk
 uFq
 uFq
 uFq
@@ -36478,7 +36515,7 @@ gii
 gii
 gii
 gii
-gii
+bzk
 uFq
 iBQ
 qQO
@@ -36735,7 +36772,7 @@ gii
 gii
 gii
 gii
-gii
+bzk
 uFq
 ozL
 iBQ
@@ -36992,7 +37029,7 @@ gii
 gii
 gii
 gii
-gii
+bzk
 uFq
 ozL
 iBQ
@@ -37016,9 +37053,9 @@ bst
 cjR
 bzk
 cjR
-cNM
-lhr
-iNC
+xlE
+uJZ
+fXB
 cjR
 bzk
 dpH
@@ -37249,7 +37286,7 @@ gii
 gii
 gii
 gii
-gii
+bzk
 uFq
 ozL
 iBQ
@@ -37271,11 +37308,11 @@ bzk
 dqG
 bzk
 cjR
-hrP
+rms
 cjR
-sqa
-lhr
-vYv
+hnk
+eCt
+gwK
 cjR
 bzk
 txc
@@ -37506,17 +37543,17 @@ gii
 gii
 gii
 uFq
-bzk
+vld
 uFq
-bzk
+vld
 crL
-bzk
+vld
 crL
-bzk
+vld
 uFq
 uFq
 osG
-bzk
+vld
 osG
 uFq
 uFq
@@ -37528,14 +37565,14 @@ bzk
 qLC
 bzk
 cjR
-krT
 cjR
-cPk
-lhr
-wHQ
+cjR
+hrP
+eCt
+fzO
 cjR
 bzk
-apv
+drL
 cjR
 gYI
 lhr
@@ -37786,10 +37823,10 @@ cjR
 cjR
 cjR
 vuW
-lhr
+uJZ
 shH
-mHj
-wHQ
+tHq
+fzO
 cjR
 bzk
 tYa
@@ -38019,7 +38056,7 @@ iBQ
 qQO
 iBQ
 iBQ
-bzk
+vld
 iBQ
 nlI
 kIK
@@ -38044,9 +38081,9 @@ hYx
 cjR
 mPS
 kZG
-jVf
-mEH
-lhr
+cKi
+fse
+mtW
 cjR
 bzk
 cjR
@@ -38300,10 +38337,10 @@ peL
 dZt
 cjR
 qGn
-lhr
-lhr
-lhr
-sIK
+vPM
+vPM
+vPM
+iEn
 cjR
 bzk
 cjR
@@ -38533,7 +38570,7 @@ bzk
 bzk
 bzk
 bzk
-bzk
+vld
 pxY
 nvV
 kIK
@@ -38556,8 +38593,8 @@ cjR
 hKS
 cjR
 cjR
-krT
-jQp
+cjR
+ykv
 sWw
 tab
 sWw
@@ -38796,9 +38833,9 @@ cXu
 kIK
 vdc
 uFq
-kHd
-kHd
-kHd
+lED
+lED
+lED
 uFq
 uFq
 uFq
@@ -38813,7 +38850,7 @@ lhr
 lhr
 hSh
 lhr
-mTA
+lhr
 lhr
 lhr
 lhr
@@ -39047,7 +39084,7 @@ iBQ
 vJT
 iBQ
 iBQ
-bzk
+vld
 iBQ
 nvV
 kIK
@@ -39070,10 +39107,10 @@ lTQ
 wop
 wVp
 lhr
-mtW
-bmY
-bmY
-aGi
+lhr
+lhr
+lhr
+lhr
 lhr
 lhr
 lhr
@@ -39304,12 +39341,12 @@ aQe
 rFX
 iBQ
 rFX
-bzk
+vld
 iBQ
 cXu
 kIK
 vdc
-bzk
+vld
 kIK
 eEz
 kIK
@@ -39321,7 +39358,7 @@ iyC
 uFq
 gBx
 svG
-bzk
+vld
 lhr
 lhr
 lhr
@@ -39330,7 +39367,7 @@ lhr
 uGb
 lhr
 lhr
-mTA
+lhr
 lhr
 lhr
 lhr
@@ -39561,7 +39598,7 @@ vJT
 iBQ
 iBQ
 ppy
-bzk
+vld
 iBQ
 nvV
 kIK
@@ -39587,7 +39624,7 @@ fFg
 uFq
 fFg
 uFq
-mTA
+lhr
 lhr
 ueU
 lhr
@@ -39844,7 +39881,7 @@ bzk
 uCP
 bzk
 uFq
-mTA
+lhr
 lhr
 kkM
 lhr
@@ -40075,7 +40112,7 @@ bzk
 bzk
 bzk
 bzk
-bzk
+vld
 iBQ
 nvV
 kIK
@@ -40101,7 +40138,7 @@ bzk
 bzk
 bzk
 uFq
-mTA
+lhr
 lhr
 uGb
 lhr
@@ -40307,7 +40344,7 @@ gii
 gii
 gii
 cjR
-iBQ
+nDE
 mvC
 qiq
 dyD
@@ -40358,7 +40395,7 @@ dnu
 xry
 rTd
 uFq
-krT
+cjR
 rkb
 cjR
 cjR
@@ -40589,7 +40626,7 @@ iBQ
 uWa
 iBQ
 iBQ
-bzk
+vld
 iBQ
 nlQ
 gKc
@@ -40615,7 +40652,7 @@ saE
 rxm
 fMR
 uFq
-lut
+lVD
 bzk
 cjR
 bzk
@@ -41067,7 +41104,7 @@ uFq
 uFq
 uFq
 uFq
-kIK
+nEl
 uFq
 uFq
 uFq
@@ -41449,7 +41486,7 @@ gii
 gii
 gii
 gii
-gii
+uFq
 uFq
 uFq
 cjR
@@ -41624,7 +41661,7 @@ dyD
 rbQ
 hEQ
 uFq
-bzk
+vld
 uFq
 qnG
 tTs
@@ -41863,7 +41900,7 @@ gii
 gii
 gii
 jKK
-gii
+krT
 gii
 gii
 gii
@@ -41882,7 +41919,7 @@ nEc
 iBQ
 iBQ
 iBQ
-bzk
+vld
 eiQ
 xmS
 deN
@@ -42139,7 +42176,7 @@ dDK
 nEc
 iBQ
 iBQ
-bzk
+vld
 tTs
 xmS
 deN
@@ -42348,7 +42385,7 @@ uFq
 uFq
 nOz
 orj
-orj
+iHG
 uFq
 slI
 eLz
@@ -42396,7 +42433,7 @@ bfs
 nEc
 iBQ
 iBQ
-bzk
+vld
 eiQ
 xmS
 deN
@@ -42653,7 +42690,7 @@ ozL
 nEc
 iBQ
 iBQ
-bzk
+vld
 cnl
 xmS
 deN
@@ -42891,7 +42928,7 @@ gii
 gii
 gii
 jKK
-gii
+krT
 gii
 gii
 gii
@@ -42910,7 +42947,7 @@ ozL
 nEc
 uWa
 vgh
-bzk
+vld
 bzR
 xmS
 pkI
@@ -43637,7 +43674,7 @@ uFq
 uFq
 uFq
 uFq
-kIK
+fZY
 uFq
 uFq
 uFq
@@ -44676,7 +44713,7 @@ gii
 gii
 uFq
 uFq
-aNh
+bXN
 iBQ
 iBQ
 iBQ
@@ -46477,7 +46514,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -46734,7 +46771,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -46991,7 +47028,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -47224,6 +47261,7 @@ gii
 gii
 gii
 jKK
+krT
 gii
 gii
 gii
@@ -47247,8 +47285,7 @@ gii
 gii
 gii
 gii
-gii
-hPV
+lut
 gii
 gii
 gii
@@ -47260,7 +47297,7 @@ gii
 gii
 gii
 jKK
-gii
+krT
 gii
 gii
 gii
@@ -47505,7 +47542,7 @@ kNh
 kNh
 kNh
 kNh
-gTr
+aGi
 kNh
 kNh
 kNh
@@ -47762,7 +47799,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -48019,7 +48056,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -48276,7 +48313,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -48533,7 +48570,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -48790,7 +48827,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -49047,7 +49084,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -49301,13 +49338,13 @@ gii
 gii
 gii
 gii
-jUM
+mTA
 ntP
 ntP
-hPV
+lut
 ntP
 ntP
-jUM
+mTA
 gii
 gii
 gii
@@ -49555,19 +49592,19 @@ gii
 gii
 gii
 gii
-jUM
+mTA
 ntP
 gii
 ntP
-hPV
-hPV
-hPV
-hPV
-hPV
+lut
+lut
+lut
+lut
+lut
 ntP
 gii
 ntP
-jUM
+mTA
 gii
 gii
 gii
@@ -49813,17 +49850,17 @@ gii
 gii
 gii
 ntP
-hPV
+lut
 gii
 ntP
-hPV
-jUM
-hPV
-jUM
-hPV
+lut
+mTA
+lut
+mTA
+lut
 ntP
 gii
-hPV
+lut
 ntP
 gii
 gii
@@ -50070,17 +50107,17 @@ gii
 gii
 gii
 ntP
-hPV
-hPV
-hPV
-hPV
-hPV
-ioG
-hPV
-hPV
-hPV
-hPV
-hPV
+lut
+lut
+lut
+lut
+lut
+orn
+lut
+lut
+lut
+lut
+lut
 ntP
 gii
 gii
@@ -50327,17 +50364,17 @@ gii
 gii
 gii
 ntP
-hPV
+lut
 gii
 ntP
-hPV
-jUM
-hPV
-jUM
-hPV
+lut
+mTA
+lut
+mTA
+lut
 ntP
 gii
-hPV
+lut
 ntP
 gii
 gii
@@ -50583,19 +50620,19 @@ gii
 gii
 gii
 gii
-jUM
+mTA
 ntP
 gii
 ntP
-hPV
-hPV
-hPV
-hPV
-hPV
+lut
+lut
+lut
+lut
+lut
 ntP
 gii
 ntP
-jUM
+mTA
 gii
 gii
 gii
@@ -50843,13 +50880,13 @@ gii
 gii
 gii
 gii
-jUM
+mTA
 ntP
 ntP
-hPV
+lut
 ntP
 ntP
-jUM
+mTA
 gii
 gii
 gii
@@ -51103,7 +51140,7 @@ gii
 gii
 gii
 gii
-hPV
+lut
 gii
 gii
 gii
@@ -51359,9 +51396,9 @@ gii
 gii
 gii
 ntP
-hPV
-hPV
-hPV
+lut
+lut
+lut
 ntP
 gii
 gii
@@ -51615,11 +51652,11 @@ gii
 gii
 gii
 gii
-jUM
+mTA
 ntP
 ntP
 ntP
-jUM
+mTA
 gii
 gii
 gii
@@ -69321,7 +69358,7 @@ gii
 (183,1,1) = {"
 gii
 gii
-fZY
+gii
 gii
 gii
 gii
@@ -71405,7 +71442,7 @@ hPV
 eSj
 hPV
 hPV
-fse
+hPV
 uFq
 uFq
 uFq
@@ -71651,7 +71688,7 @@ hPV
 hPV
 cjL
 hPV
-bXN
+hPV
 hPV
 hPV
 cjL
@@ -72679,7 +72716,7 @@ hPV
 hPV
 cjL
 hPV
-vPM
+hPV
 qth
 hPV
 cjL
@@ -73696,7 +73733,7 @@ gii
 gii
 gii
 uFq
-lED
+kIK
 ijF
 kIK
 kIK
@@ -74478,7 +74515,7 @@ hPV
 hPV
 cjL
 hPV
-cKi
+hPV
 vhU
 hPV
 cjL
@@ -75506,7 +75543,7 @@ hPV
 hPV
 cjL
 hPV
-uJZ
+hPV
 hPV
 hPV
 cjL
@@ -75774,7 +75811,7 @@ hPV
 eSj
 hPV
 hPV
-vld
+hPV
 uFq
 uFq
 uFq
